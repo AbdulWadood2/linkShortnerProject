@@ -1,0 +1,69 @@
+/* global */
+.larger{
+    font-size:xx-large;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  width: 100%;
+}
+/* for A */
+.App > .A {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App > .A > .input > input {
+  width: 250px;
+  height: 30px;
+}
+.App > .A > .enter {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+}
+.App > .A > .enter:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+/* for B */
+.App > .B {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+.App > .B > .description {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: blue;
+}
+.App > .B > .answer {
+  font-weight: bold;
+  color: red;
+  width: 350px;
+  overflow-wrap: break-word;
+}
+.App > .B > .copy {
+  padding: 20px 80px 20px 80px;
+}
+
+.App > .B > .copy > div {
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.App > .B > .copy > div:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
